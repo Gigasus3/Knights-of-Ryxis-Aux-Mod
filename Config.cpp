@@ -7,6 +7,7 @@ class CfgPatches
 		{
 			"A3_Data_F",
 			"TIOWSpaceMarines",
+			"Project_Primaris_Dos",
 		};
 		requiredVersion=0.1;
 		units[]=
