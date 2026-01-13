@@ -1,16 +1,14 @@
-/// Name of your mod
-name = "Knights of Ryxis";
-/// Picture displayed from the expansions menu/ Optimal size is 2048x1024, other sizes work too
-picture = "File path to your logo here";
-/// Display next to the item added by the mod
-logoSmall = "KoR\Textures\KoR_logo.png";
-/// Logo displayed in the main menu
-logo = "KoR\Textures\KoR_logo.png";
-/// Change the logo When the mouse is over, in the main menu of Arma 3
-logoOver = "File path to your logo here";
-/// Website URL, that can accessed from the mod data
-action = "http://bitly.com/98K8eH";
-/// Tool tip displayed when the mouse is left over, in the main menu of Arma 3
-tooltipOwned = "Retexture of Knights of Ryxis";
-/// Overview text, displayed from the extension menu
-overview = "Retexture of Knights of Ryxis";
+name			= "Knights of Ryxis";					// Name of your mod
+author			= "Gigasus / Stone";				// Affects Arma 3 Launcher, when the mod are loaded as local
+logo			= "logo.paa";			// Logo displayed in the main menu
+logoOver		= "logoOver.paa";	// When the mouse is over, in the main menu
+tooltip			= "Knights of Ryxis";
+tooltipOwned	= "Retexture for the Knights of Ryxis";				// Tool tip displayed when the mouse is left over, in the main menu
+picture			= "picture.paa";		// Picture displayed from the expansions menu. Optimal size is 2048x1024
+actionName		= "GitHub";
+action			= "https://github.com/my-mod-page";			// Website URL, that can be accessed from the expansions menu
+overview		= "Retexture of Knights of Ryxis from mods such as There is only War, Crossing the Rubicon and Project Primaris.";	// Supports structured text
+hideName		= 0;						// Hide the extension name
+hidePicture		= 0;						// Hide the extension menu
+dlcColor[]		= { 0.23, 0.39, 0.30, 1 };	// Color used for DLC stripes and backgrounds (RGBA)
+logoSmall		= "logo_small.paa";		// Display in creative lists, next to the entities added by the mod
